@@ -1,0 +1,11 @@
+# syntax=docker/dockerfile:1
+
+FROM node:16.13.2
+
+WORKDIR /pow
+
+COPY . .
+
+RUN npm install
+
+CMD [ "node", "server" ]

@@ -4,7 +4,7 @@ Design and implement “Word of Wisdom” tcp server.
 • After Prof Of Work verification, server should send one of the quotes from “word of wisdom” book or any other collection of the quotes.
 • Docker file should be provided both for the server and for the client that solves the POW challenge.
 
- # docker build -t server-pow -f DockerfileServer .
- # docker build -t client-pow -f DockerfileClient .
- # docker run --rm -dp 3005:3005 server-pow
- # docker run --rm -it --network host --name client-pow client-pow
+ ### docker build -t server-pow -f DockerfileServer .
+ ### docker build -t client-pow -f DockerfileClient .
+ ### docker run --rm -dp 3005:3005 server-pow
+ ### docker run --rm -it --network host --name client-pow client-pow
